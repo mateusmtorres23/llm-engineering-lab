@@ -32,5 +32,3 @@ Audio playback
 ## Purpose
 
 This project was created as a small experiment to explore multimodal interaction with LLMs, combining audio input, language model processing, and text-to-speech synthesis.
-
-It is maintained as part of the [`llm-engineering-lab`](https://github.com/mateusmtorres23/llm-engineering-lab) repository.
