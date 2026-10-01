@@ -25,7 +25,10 @@ async def speak(text):
     audio_data = b""
     async for chunk in communicate.stream():
         if chunk["type"] == "audio":
-            audio_data += chunk["data"]
+            data = chunk.get("data")
+            if data is not None:
+                audio_data += data
+
     
     audio_stream = io.BytesIO(audio_data)
     pygame.mixer.music.load(audio_stream)
