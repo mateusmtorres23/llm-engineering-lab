@@ -1,7 +1,6 @@
 # Learning-IA
 
-My personal journey into AI agents. This repository serves as a collection of projects and experiments as I explore different technologies and concepts in the agentic AI space.
-
+Repo to organize my projects building AI Agents with LLMs
 
 
 ## Technologies & Skills
